@@ -57,7 +57,6 @@ public class Library {
 		ExtHtmlReptr.config().setTheme(Theme.STANDARD);
 		ExtReports = new ExtentReports();
 		ExtReports.attachReporter(ExtHtmlReptr);
-
 		ExtReports.setSystemInfo("TesterName", "Raghuveer");
 		ExtReports.setSystemInfo("Broswer", objProperties.getProperty("browser"));
 		ExtReports.setSystemInfo("Environment", objProperties.getProperty("Environment"));
